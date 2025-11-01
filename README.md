@@ -91,3 +91,8 @@ demonstrating its **robustness and practical utility for high-dimensional biolog
    The Annals of Statistics, 29(4), 1165–1188.
 
 ---
+## * Included File
+
+| Filename | Description |
+|-----------|-------------|
+| `다중 검정에서의 효과적인 거짓 발견 확률 제어 방법 연구.pdf` | Final UROP research report |
