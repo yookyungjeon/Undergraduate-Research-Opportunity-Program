@@ -34,7 +34,7 @@ The research examines its theoretical validity and empirical performance under *
 
 ---
 
-## 4. Simulation Study (Overview & Results)
+## 4. Simulation
 
 **Overview**  
 - Number of hypotheses: 200  
@@ -44,21 +44,23 @@ The research examines its theoretical validity and empirical performance under *
 - Repetitions: 500  
 - Evaluation metrics: Statistical Power
 
-**Results Summary**
+**Figure Descriptions**
+- **Figure 1:** Comparison of p-value distributions under the null hypothesis to illustrate Type I error control across multiple testing correction methods
 
-| Condition | Method | Power | FDR Control | Remarks |
-|------------|---------|--------|--------------|----------|
-| Independent (ρ = 0) | Bonferroni / Holm | Low | Stable | Overly conservative |
-| Independent (ρ = 0) | BH | High | Appropriate | Efficient and reliable |
-| Positive Dependence (ρ = 0.5, 0.9) | BH | Maintained | Stable | Valid under dependency |
+- **Figure 2:** Comparison of p-value distributions under the alternative hypothesis to evaluate differences in statistical power across correction methods
+
+- **Figure 3:** Comparison of average statistical power across multiple testing correction methods under the alternative hypothesis
+
+- **Figure 4:** Comparison of the number of rejected null hypotheses under the null hypothesis as positive correlation among hypotheses increases
+
+- **Figure 5:** Evaluation of rejection counts and power stability under the alternative hypothesis in the presence of positive dependency among hypotheses
 
 ➡ **Summary:**  
-The BH procedure achieved higher power than FWER-based methods while maintaining FDR control.  
-Even under positive correlation, BH remained effective, providing a **practical balance between power and error control** for real-world data settings.
+This simulation study compares the performance of FWER-based and FDR-based methods in a multiple testing framework. While Bonferroni and Holm procedures strongly control Type I error at the cost of substantial power loss, the Benjamini–Hochberg procedure maintains high statistical power while effectively controlling the false discovery rate. In particular, the Benjamini–Hochberg procedure remains stable under positive dependency among hypotheses, demonstrating its practical applicability in realistic large-scale multiple testing problems.
 
 ---
 
-## 5. Real Data Analysis (Overview & Results)
+## 5. Real Data Analysis
 
 **Overview**  
 - **Dataset:** Cervical cancer gene-expression data  
@@ -95,4 +97,4 @@ demonstrating its **robustness and practical utility for high-dimensional biolog
 
 | Filename | Description |
 |-----------|-------------|
-| `다중 검정에서의 효과적인 거짓 발견 확률 제어 방법 연구.pdf` | Final UROP research report |
+| `다중 검정에서의 효과적인 거짓 발견 확률 제어 방법 연구.pdf` | Final UROP research short thesis |
