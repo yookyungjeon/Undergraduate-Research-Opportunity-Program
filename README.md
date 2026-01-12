@@ -40,7 +40,7 @@ The research examines its theoretical validity and empirical performance under *
 - Number of hypotheses: 200  
 - Sample size: 50 per group  
 - Correlation levels: ρ = 0, 0.1, 0.5, 0.9  
-- Methods compared: No Correction, Bonferroni, Holm, BH (Benjamini-Hochberg)
+- Methods compared: No Correction, Bonferroni, Holm, Benjamini–Hochberg (BH)
 - Repetitions: 500  
 - Evaluation metrics: Statistical Power
 
@@ -58,20 +58,12 @@ This simulation study compares the performance of FWER-based and FDR-based metho
 
 ## 5. Real Data Analysis
 
-**Simulation Design**  
+**Overview**  
 - **Dataset:** Cervical cancer gene-expression data  
-- **Groups:** 28 patients vs. 24 controls  
+- **Groups:** 28 cervical cancer patients vs. 24 healthy controls  
 - **Number of genes:** 20,261  
-- **Goal:** Identify genes with significant expression differences between groups  
+- **Goal:** Identify genes showing statistically significant differential expression between groups
 - **Methods applied:** No Correction, Bonferroni, Holm, Benjamini–Hochberg (BH)
-
-**Results Summary**
-
-| Method | Number of Rejected Hypotheses |
-|---------|-------------------------------|
-| No Correction | 8,514 |
-| Benjamini–Hochberg (BH) | 6,417 |
-| Bonferroni / Holm | 780 |
 
 ➡ **Summary:**  
 Bonferroni and Holm detected only 780 significant genes, showing their conservativeness.  
