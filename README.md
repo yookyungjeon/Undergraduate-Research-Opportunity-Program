@@ -36,7 +36,7 @@ The research examines its theoretical validity and empirical performance under *
 
 ## 4. Simulation
 
-**Overview**  
+**Simulation Design**  
 - Number of hypotheses: 200  
 - Sample size: 50 per group  
 - Correlation levels: ρ = 0, 0.1, 0.5, 0.9  
@@ -58,7 +58,7 @@ This simulation study compares the performance of FWER-based and FDR-based metho
 
 ## 5. Real Data Analysis
 
-**Overview**  
+**Simulation Design**  
 - **Dataset:** Cervical cancer gene-expression data  
 - **Groups:** 28 patients vs. 24 controls  
 - **Number of genes:** 20,261  
