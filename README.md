@@ -28,9 +28,9 @@ The research examines its theoretical validity and empirical performance under *
 | Category | Method | Description |
 |-----------|---------|--------------|
 | **FWER Control** | Bonferroni | Controls the family-wise error rate by dividing the significance level α by the total number of hypotheses (α/m); highly conservative |
-|  | Holm | Sequential step-down procedure that relaxes Bonferroni correction while still controlling FWER |
-| **FDR Control** | Benjamini–Hochberg (BH) | Controls the false discovery rate at a specified level q under independence |
-|  | BH under dependency (PRDS) | Extension of the BH procedure that controls FDR under positive regression dependency among test statistics |
+|  | Holm | Step-down procedure that improves power over Bonferroni while still controlling FWER |
+| **FDR Control** | Benjamini–Hochberg (BH) | Controls the false discovery rate (FDR) at a target level q when test statistics (or p-values) are independent |
+|  | BH under dependency (PRDS) | The BH procedure remains valid for FDR control under positive regression dependency (PRDS) among test statistics |
 
 ---
 
