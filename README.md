@@ -46,13 +46,9 @@ The research examines its theoretical validity and empirical performance under *
 
 **Figure Descriptions**
 - **Figure 1:** Comparison of p-value distributions under the null hypothesis to illustrate Type I error control across multiple testing correction methods
-
 - **Figure 2:** Comparison of p-value distributions under the alternative hypothesis to evaluate differences in statistical power across correction methods
-
 - **Figure 3:** Comparison of average statistical power across multiple testing correction methods under the alternative hypothesis
-
 - **Figure 4:** Comparison of the number of rejected null hypotheses under the null hypothesis as positive correlation among hypotheses increases
-
 - **Figure 5:** Evaluation of rejection counts and power stability under the alternative hypothesis in the presence of positive dependency among hypotheses
 
 ➡ **Summary:**  
