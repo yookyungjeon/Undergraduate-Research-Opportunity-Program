@@ -39,10 +39,10 @@ The research examines its theoretical validity and empirical performance under *
 **Overview**  
 - Number of hypotheses: 200  
 - Sample size: 50 per group  
-- Correlation levels: ρ = 0, 0.5, 0.9  
-- Methods compared: No Correction, Bonferroni, Holm, BH  
+- Correlation levels: ρ = 0, 0.1, 0.5, 0.9  
+- Methods compared: No Correction, Bonferroni, Holm, BH (Benjamini-Hochberg)
 - Repetitions: 500  
-- Evaluation metrics: Statistical Power, FDR Control Accuracy  
+- Evaluation metrics: Statistical Power
 
 **Results Summary**
 
