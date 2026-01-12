@@ -25,8 +25,8 @@ The research examines its theoretical validity and empirical performance under *
 
 ## 3. Methods Used
 
-| Category | Method | Author(s) | Description |
-|-----------|---------|-----------|--------------|
+| Category | Method | Description |
+|-----------|---------|--------------|
 | **FWER Control** | Bonferroni | Controls the family-wise error rate by dividing the significance level α by the total number of hypotheses (α/m); highly conservative |
 |  | Holm | Sequential step-down procedure that relaxes Bonferroni correction while still controlling FWER |
 | **FDR Control** | Benjamini–Hochberg (BH) | Controls the false discovery rate at a specified level q under independence |
